@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- ==========task-1========= -->
+    <div style="display: flex; justify-content: space-between;">
+        <form action="" style="display: flex; flex-direction: column;">
+            <label for="width">Ширина</label>
+            <input type="number" id="width">
+            <label for="height">Висота</label>
+            <input type="number" id="height">
+            <div>
+                <input type="checkbox" id="ellipse">
+                <label for="ellipse">Еліпс</label>
+            </div>
+            <button class="btn" disabled type="button">Намалювати</button>
+        </form>
+        <div>
+            <svg class="svg" style="width: 600px; height: 500px">
+                <rect class="rect off"  style="fill: brown;"/>
+                <ellipse class="ellipse off"  style="fill: rgb(42, 83, 165);"  />
+            </svg> 
+        </div>
+    </div>
+
+        <!-- ==========task-2========= -->
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
