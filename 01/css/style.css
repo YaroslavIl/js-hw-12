@@ -8,6 +8,7 @@
 }
 .off{
     visibility: hidden;
+    border: 1px solid #000;
 }
 
 /* =======task-2======== */
